@@ -1,8 +1,24 @@
 aid: globalcare-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/globalcare-inc.png
 name: GlobalCare Inc.
-description: 'GlobalCare Inc. is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'GlobalCare Inc. was a healthcare technology company founded in 1994 and based in Portland,
+  Oregon, that provided solutions enabling healthcare payers to significantly reduce the cost of out-of-network
+  claims. Backed by an investor group led by Insight Venture Partners (Series A Preferred Stock), GlobalCare
+  merged into Zelis Healthcare in January 2016 and no longer operates as an independent entity. Its out-of-network
+  claims-pricing capabilities are now delivered through Zelis. GlobalCare Inc. itself publishes no independent
+  developer portal, API documentation, or machine-readable API surface; any current API surface is Zelis''s
+  (developer.zelis.com), tracked separately in the network.'
 url: https://raw.githubusercontent.com/api-evangelist/globalcare-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +26,29 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: merged
+x-successor: zelis
+x-successor-note: 'Merged into Zelis Healthcare, January 2016; no independent API surface.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- HealthTech
+- Claims
+- Out-of-Network
+- Payers
+- Insurance
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
