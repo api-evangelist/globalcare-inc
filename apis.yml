@@ -29,7 +29,7 @@ x-tier-reason: portfolio-lead
 x-status: merged
 x-successor: zelis
 x-successor-note: 'Merged into Zelis Healthcare, January 2016; no independent API surface.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
